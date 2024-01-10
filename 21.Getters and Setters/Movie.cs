@@ -24,7 +24,9 @@ namespace _21.Getters_and_Setters
             set
             {
                 if (value == "G" || value == "PG" || value == "PG-13" || value == "R" || value == "NR")
+                {
                     rating = value;
+                }
                 else
                 {
                     rating = "NR";
